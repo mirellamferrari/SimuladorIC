@@ -1,0 +1,7 @@
+/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles/main.dir
+/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles/edit_cache.dir
+/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles/rebuild_cache.dir
+/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles/list_install_components.dir
+/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles/install.dir
+/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles/install/local.dir
+/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles/install/strip.dir
