@@ -1,4 +1,4 @@
-//primeira versão 
+//primeira versão funcional
 #include "Analysis.hh"
 #include "G4AnalysisManager.hh"
 
