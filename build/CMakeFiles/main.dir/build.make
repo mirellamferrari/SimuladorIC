@@ -86,10 +86,24 @@ CMakeFiles/main.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/mirella/Downloads/SimuladorMauro (Cópia)/Code-Mu/main.cc" -o CMakeFiles/main.dir/main.cc.s
 
+CMakeFiles/main.dir/src/Analysis.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Analysis.cc.o: /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/src/Analysis.cc
+CMakeFiles/main.dir/src/Analysis.cc.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/Analysis.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Analysis.cc.o -MF CMakeFiles/main.dir/src/Analysis.cc.o.d -o CMakeFiles/main.dir/src/Analysis.cc.o -c "/home/mirella/Downloads/SimuladorMauro (Cópia)/Code-Mu/src/Analysis.cc"
+
+CMakeFiles/main.dir/src/Analysis.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Analysis.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/mirella/Downloads/SimuladorMauro (Cópia)/Code-Mu/src/Analysis.cc" > CMakeFiles/main.dir/src/Analysis.cc.i
+
+CMakeFiles/main.dir/src/Analysis.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Analysis.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/mirella/Downloads/SimuladorMauro (Cópia)/Code-Mu/src/Analysis.cc" -o CMakeFiles/main.dir/src/Analysis.cc.s
+
 CMakeFiles/main.dir/src/DetectorHit.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/DetectorHit.cc.o: /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/src/DetectorHit.cc
 CMakeFiles/main.dir/src/DetectorHit.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/DetectorHit.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/DetectorHit.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/DetectorHit.cc.o -MF CMakeFiles/main.dir/src/DetectorHit.cc.o.d -o CMakeFiles/main.dir/src/DetectorHit.cc.o -c "/home/mirella/Downloads/SimuladorMauro (Cópia)/Code-Mu/src/DetectorHit.cc"
 
 CMakeFiles/main.dir/src/DetectorHit.cc.i: cmake_force
@@ -103,7 +117,7 @@ CMakeFiles/main.dir/src/DetectorHit.cc.s: cmake_force
 CMakeFiles/main.dir/src/EventAction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/EventAction.cc.o: /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/src/EventAction.cc
 CMakeFiles/main.dir/src/EventAction.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/EventAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/EventAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/EventAction.cc.o -MF CMakeFiles/main.dir/src/EventAction.cc.o.d -o CMakeFiles/main.dir/src/EventAction.cc.o -c "/home/mirella/Downloads/SimuladorMauro (Cópia)/Code-Mu/src/EventAction.cc"
 
 CMakeFiles/main.dir/src/EventAction.cc.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/main.dir/src/EventAction.cc.s: cmake_force
 CMakeFiles/main.dir/src/PhysicsList.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/PhysicsList.cc.o: /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/src/PhysicsList.cc
 CMakeFiles/main.dir/src/PhysicsList.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/PhysicsList.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/PhysicsList.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PhysicsList.cc.o -MF CMakeFiles/main.dir/src/PhysicsList.cc.o.d -o CMakeFiles/main.dir/src/PhysicsList.cc.o -c "/home/mirella/Downloads/SimuladorMauro (Cópia)/Code-Mu/src/PhysicsList.cc"
 
 CMakeFiles/main.dir/src/PhysicsList.cc.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/main.dir/src/PhysicsList.cc.s: cmake_force
 CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o: /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/src/PrimaryGeneratorAction.cc
 CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.o -c "/home/mirella/Downloads/SimuladorMauro (Cópia)/Code-Mu/src/PrimaryGeneratorAction.cc"
 
 CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/main.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 CMakeFiles/main.dir/src/RunAction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/RunAction.cc.o: /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/src/RunAction.cc
 CMakeFiles/main.dir/src/RunAction.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/RunAction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/RunAction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/RunAction.cc.o -MF CMakeFiles/main.dir/src/RunAction.cc.o.d -o CMakeFiles/main.dir/src/RunAction.cc.o -c "/home/mirella/Downloads/SimuladorMauro (Cópia)/Code-Mu/src/RunAction.cc"
 
 CMakeFiles/main.dir/src/RunAction.cc.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/main.dir/src/RunAction.cc.s: cmake_force
 CMakeFiles/main.dir/src/SensitiveDetector.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/SensitiveDetector.cc.o: /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/src/SensitiveDetector.cc
 CMakeFiles/main.dir/src/SensitiveDetector.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/SensitiveDetector.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/SensitiveDetector.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/SensitiveDetector.cc.o -MF CMakeFiles/main.dir/src/SensitiveDetector.cc.o.d -o CMakeFiles/main.dir/src/SensitiveDetector.cc.o -c "/home/mirella/Downloads/SimuladorMauro (Cópia)/Code-Mu/src/SensitiveDetector.cc"
 
 CMakeFiles/main.dir/src/SensitiveDetector.cc.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/main.dir/src/SensitiveDetector.cc.s: cmake_force
 CMakeFiles/main.dir/src/UserDetectorConstruction.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/UserDetectorConstruction.cc.o: /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/src/UserDetectorConstruction.cc
 CMakeFiles/main.dir/src/UserDetectorConstruction.cc.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/UserDetectorConstruction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/UserDetectorConstruction.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/UserDetectorConstruction.cc.o -MF CMakeFiles/main.dir/src/UserDetectorConstruction.cc.o.d -o CMakeFiles/main.dir/src/UserDetectorConstruction.cc.o -c "/home/mirella/Downloads/SimuladorMauro (Cópia)/Code-Mu/src/UserDetectorConstruction.cc"
 
 CMakeFiles/main.dir/src/UserDetectorConstruction.cc.i: cmake_force
@@ -187,6 +201,7 @@ CMakeFiles/main.dir/src/UserDetectorConstruction.cc.s: cmake_force
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cc.o" \
+"CMakeFiles/main.dir/src/Analysis.cc.o" \
 "CMakeFiles/main.dir/src/DetectorHit.cc.o" \
 "CMakeFiles/main.dir/src/EventAction.cc.o" \
 "CMakeFiles/main.dir/src/PhysicsList.cc.o" \
@@ -199,6 +214,7 @@ main_OBJECTS = \
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cc.o
+main: CMakeFiles/main.dir/src/Analysis.cc.o
 main: CMakeFiles/main.dir/src/DetectorHit.cc.o
 main: CMakeFiles/main.dir/src/EventAction.cc.o
 main: CMakeFiles/main.dir/src/PhysicsList.cc.o
@@ -254,7 +270,7 @@ main: /home/mirella/geant42/geant4-install/lib/libG4global.so
 main: /home/mirella/geant42/geant4-install/lib/libG4clhep.so
 main: /home/mirella/geant42/geant4-install/lib/libG4ptl.so.2.3.3
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/mirella/Downloads/SimuladorMauro (Cópia)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -536,10 +536,6 @@ CMakeFiles/main.dir/src/SensitiveDetector.cc.o: \
  /home/mirella/geant42/geant4-install/include/Geant4/G4UserRunAction.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/globals.hh \
  /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/include/Analysis.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4UnitsTable.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4UnitsTable.icc \
- /home/mirella/geant42/geant4-install/include/Geant4/G4PhysicalConstants.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4SystemOfUnits.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4AnalysisManager.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
@@ -599,4 +595,8 @@ CMakeFiles/main.dir/src/SensitiveDetector.cc.o: \
  /home/mirella/geant42/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
  /home/mirella/geant42/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
  /home/mirella/geant42/geant4-install/include/Geant4/G4GenericFileManager.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4GenericFileManager.icc
+ /home/mirella/geant42/geant4-install/include/Geant4/G4GenericFileManager.icc \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4UnitsTable.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4UnitsTable.icc \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4PhysicalConstants.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4SystemOfUnits.hh

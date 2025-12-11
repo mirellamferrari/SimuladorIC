@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/link.d"
   "CMakeFiles/main.dir/main.cc.o"
   "CMakeFiles/main.dir/main.cc.o.d"
+  "CMakeFiles/main.dir/src/Analysis.cc.o"
+  "CMakeFiles/main.dir/src/Analysis.cc.o.d"
   "CMakeFiles/main.dir/src/DetectorHit.cc.o"
   "CMakeFiles/main.dir/src/DetectorHit.cc.o.d"
   "CMakeFiles/main.dir/src/EventAction.cc.o"

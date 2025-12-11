@@ -45,9 +45,45 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent) {
     gun->SetParticleMomentumDirection(G4ThreeVector(sin(phi)*cos(theta),sin(phi)*sin(theta),cos(phi)));
     
     //Gamma energy
-    double energy = (G4RandGauss::shoot(1000000000, 50))*eV;
+    //double energy = (G4RandGauss::shoot(1000000000, 50))*eV;
+    double energy = std::max(0.0, G4RandGauss::shoot(1*GeV, 50*eV));
+    
+
+
     
     gun->SetParticleEnergy(energy);
     gun->GeneratePrimaryVertex(anEvent);
 }
+
+// void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
+// {
+//     // Posição do feixe 
+//     gun->SetParticlePosition(G4ThreeVector(0., 0., -5*cm));
+
+//     // Direção fixa para o detector no centro
+//     gun->SetParticleMomentumDirection(G4ThreeVector(0., 0., 1.));
+
+//     // Energia gaussiana
+//     double energy = std::max(0.0, G4RandGauss::shoot(1*GeV, 50*eV));
+//     gun->SetParticleEnergy(energy);
+
+//     // Criação do vértice primário
+//     gun->GeneratePrimaryVertex(anEvent);
+// }
+
+// void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent)
+// {
+//     // posição inicial do feixe (atrás do detector)
+//     gun->SetParticlePosition(G4ThreeVector(0., 0., 0.*mm));
+
+//     // direção apontando para o centro do detector
+//     gun->SetParticleMomentumDirection(G4ThreeVector(0., 0., 1.));
+
+//     // Energia Gaussiana
+//     double energy = std::max(0.0, G4RandGauss::shoot(1*GeV, 50*eV));
+//     gun->SetParticleEnergy(energy);
+
+//     // Criar o evento
+//     gun->GeneratePrimaryVertex(anEvent);
+// }
 

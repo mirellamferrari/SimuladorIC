@@ -1,8 +1,15 @@
-CMakeFiles/main.dir/src/RunAction.cc.o: \
- /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/src/RunAction.cc \
+CMakeFiles/main.dir/src/Analysis.cc.o: \
+ /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/src/Analysis.cc \
  /usr/include/stdc-predef.h \
- /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/include/RunAction.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4UserRunAction.hh \
+ /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/include/Analysis.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4AnalysisManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4VAnalysisManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/globals.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4ios.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4Types.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/14/complex \
@@ -191,8 +198,6 @@ CMakeFiles/main.dir/src/RunAction.cc.o: \
  /usr/include/c++/14/bits/istream.tcc \
  /usr/include/c++/14/bits/sstream.tcc \
  /home/mirella/geant42/geant4-install/include/Geant4/tls.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/globals.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4ios.hh \
  /usr/include/c++/14/iostream /usr/include/c++/14/algorithm \
  /usr/include/c++/14/bits/stl_algo.h \
  /usr/include/c++/14/bits/algorithmfwd.h \
@@ -238,16 +243,8 @@ CMakeFiles/main.dir/src/RunAction.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /usr/include/c++/14/bits/parse_numbers.h \
  /usr/include/c++/14/bits/std_mutex.h \
- /usr/include/c++/14/bits/unique_lock.h \
- /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/include/Analysis.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4AnalysisManager.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4VAnalysisManager.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/globals.hh \
- /usr/include/c++/14/array /usr/include/c++/14/compare \
+ /usr/include/c++/14/bits/unique_lock.h /usr/include/c++/14/array \
+ /usr/include/c++/14/compare \
  /home/mirella/geant42/geant4-install/include/Geant4/G4Threading.hh \
  /usr/include/c++/14/chrono /usr/include/c++/14/condition_variable \
  /usr/include/c++/14/bits/shared_ptr.h \
@@ -341,19 +338,4 @@ CMakeFiles/main.dir/src/RunAction.cc.o: \
  /home/mirella/geant42/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
  /home/mirella/geant42/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
  /home/mirella/geant42/geant4-install/include/Geant4/G4GenericFileManager.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4GenericFileManager.icc \
- /home/mirella/geant42/geant4-install/include/Geant4/G4Run.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4Profiler.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4Profiler.icc \
- /usr/include/c++/14/functional /usr/include/c++/14/unordered_map \
- /usr/include/c++/14/bits/unordered_map.h \
- /usr/include/c++/14/bits/hashtable.h \
- /usr/include/c++/14/bits/hashtable_policy.h \
- /usr/include/c++/14/bits/enable_special_members.h \
- /home/mirella/geant42/geant4-install/include/Geant4/PTL/Globals.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/PTL/Types.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/PTL/Utility.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4PhysicalConstants.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /home/mirella/geant42/geant4-install/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /home/mirella/geant42/geant4-install/include/Geant4/G4SystemOfUnits.hh
+ /home/mirella/geant42/geant4-install/include/Geant4/G4GenericFileManager.icc

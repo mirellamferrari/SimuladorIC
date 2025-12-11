@@ -198,6 +198,30 @@ main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cc.s
 .PHONY : main.cc.s
 
+src/Analysis.o: src/Analysis.cc.o
+.PHONY : src/Analysis.o
+
+# target to build an object file
+src/Analysis.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Analysis.cc.o
+.PHONY : src/Analysis.cc.o
+
+src/Analysis.i: src/Analysis.cc.i
+.PHONY : src/Analysis.i
+
+# target to preprocess a source file
+src/Analysis.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Analysis.cc.i
+.PHONY : src/Analysis.cc.i
+
+src/Analysis.s: src/Analysis.cc.s
+.PHONY : src/Analysis.s
+
+# target to generate assembly for a file
+src/Analysis.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/Analysis.cc.s
+.PHONY : src/Analysis.cc.s
+
 src/DetectorHit.o: src/DetectorHit.cc.o
 .PHONY : src/DetectorHit.o
 
@@ -382,6 +406,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Analysis.o"
+	@echo "... src/Analysis.i"
+	@echo "... src/Analysis.s"
 	@echo "... src/DetectorHit.o"
 	@echo "... src/DetectorHit.i"
 	@echo "... src/DetectorHit.s"

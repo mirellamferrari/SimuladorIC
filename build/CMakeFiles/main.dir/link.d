@@ -3,6 +3,7 @@ main: \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
   CMakeFiles/main.dir/main.cc.o \
+  CMakeFiles/main.dir/src/Analysis.cc.o \
   CMakeFiles/main.dir/src/DetectorHit.cc.o \
   CMakeFiles/main.dir/src/EventAction.cc.o \
   CMakeFiles/main.dir/src/PhysicsList.cc.o \
@@ -129,6 +130,8 @@ main: \
 /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o:
 
 CMakeFiles/main.dir/main.cc.o:
+
+CMakeFiles/main.dir/src/Analysis.cc.o:
 
 CMakeFiles/main.dir/src/DetectorHit.cc.o:
 

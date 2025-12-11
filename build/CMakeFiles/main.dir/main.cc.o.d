@@ -365,6 +365,82 @@ CMakeFiles/main.dir/main.cc.o: \
  /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/include/EventAction.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4UserEventAction.hh \
  /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/include/Analysis.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4AnalysisManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4GenericAnalysisManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4ToolsAnalysisManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4VAnalysisManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4AnalysisManagerState.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4AnalysisVerbose.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4AnalysisUtilities.hh \
+ /usr/include/c++/14/memory \
+ /usr/include/c++/14/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/14/bits/align.h \
+ /usr/include/c++/14/bits/shared_ptr_atomic.h \
+ /usr/include/c++/14/backward/auto_ptr.h \
+ /usr/include/c++/14/pstl/glue_memory_defs.h /usr/include/c++/14/fstream \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/c++io.h \
+ /usr/include/c++/14/bits/fstream.tcc \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4VTBaseHnManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4HnInformation.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4BinScheme.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4Fcn.hh \
+ /usr/include/c++/14/utility /usr/include/c++/14/bits/stl_relops.h \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4VAnalysisManager.icc \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4HnManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4BaseAnalysisManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4NtupleBookingManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/ntuple_booking \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/cids \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/cid \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/typedefs \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/forit \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4NtupleBookingManager.icc \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4VNtupleManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4VFileManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4BaseFileManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4VTHnFileManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4TH1ToolsManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4THnToolsManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4THnManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4THnManager.icc \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4THnMessenger.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4UImessenger.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4UIdirectory.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4UIcommand.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4ApplicationState.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4UIparameter.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4UItokenNum.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4THnToolsManager.icc \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4THnMessenger.icc \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4Tokenizer.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4TH2ToolsManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4TH3ToolsManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4TP1ToolsManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4TP2ToolsManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/h1d \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/h1 \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/b1 \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/base_histo \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/histo_data \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/axes \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/axis \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/eqT \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/h2d \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/h2 \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/b2 \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/h3d \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/h3 \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/b3 \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/p1d \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/p1 \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/profile_data \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/p2d \
+ /home/mirella/geant42/geant4-install/include/Geant4/tools/histo/p2 \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4ToolsAnalysisManager.icc \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4GenericAnalysisManager.icc \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4GenericFileManager.hh \
+ /home/mirella/geant42/geant4-install/include/Geant4/G4GenericFileManager.icc \
  /home/mirella/Downloads/SimuladorMauro\ (Cópia)/Code-Mu/include/SensitiveDetector.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4CollectionNameVector.hh \
@@ -413,12 +489,6 @@ CMakeFiles/main.dir/main.cc.o: \
  /home/mirella/geant42/geant4-install/include/Geant4/G4NavigationHistoryPool.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4NavigationHistory.icc \
  /home/mirella/geant42/geant4-install/include/Geant4/G4LogicalVolume.hh \
- /usr/include/c++/14/memory \
- /usr/include/c++/14/bits/stl_raw_storage_iter.h \
- /usr/include/c++/14/bits/align.h \
- /usr/include/c++/14/bits/shared_ptr_atomic.h \
- /usr/include/c++/14/backward/auto_ptr.h \
- /usr/include/c++/14/pstl/glue_memory_defs.h \
  /home/mirella/geant42/geant4-install/include/Geant4/G4LogicalVolume.icc \
  /home/mirella/geant42/geant4-install/include/Geant4/G4TouchableHistory.icc \
  /home/mirella/geant42/geant4-install/include/Geant4/G4ReferenceCountedHandle.hh \
@@ -436,10 +506,6 @@ CMakeFiles/main.dir/main.cc.o: \
  /home/mirella/geant42/geant4-install/include/Geant4/G4MaterialPropertyVector.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4PhysicsFreeVector.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4PhysicsVector.hh \
- /usr/include/c++/14/fstream \
- /usr/include/x86_64-linux-gnu/c++/14/bits/basic_file.h \
- /usr/include/x86_64-linux-gnu/c++/14/bits/c++io.h \
- /usr/include/c++/14/bits/fstream.tcc \
  /home/mirella/geant42/geant4-install/include/Geant4/G4Log.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4PhysicsVectorType.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4PhysicsVector.icc \
@@ -455,7 +521,6 @@ CMakeFiles/main.dir/main.cc.o: \
  /home/mirella/geant42/geant4-install/include/Geant4/PTL/Globals.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/PTL/Types.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/PTL/Utility.hh \
- /usr/include/c++/14/utility /usr/include/c++/14/bits/stl_relops.h \
  /home/mirella/geant42/geant4-install/include/Geant4/G4Step.icc \
  /home/mirella/geant42/geant4-install/include/Geant4/G4Track.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/trkdefs.hh \
@@ -593,12 +658,6 @@ CMakeFiles/main.dir/main.cc.o: \
  /home/mirella/geant42/geant4-install/include/Geant4/G4VSteppingVerbose.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/trkgdefs.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4TrackingMessenger.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4UImessenger.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4UIdirectory.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4UIcommand.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4ApplicationState.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4UIparameter.hh \
- /home/mirella/geant42/geant4-install/include/Geant4/G4UItokenNum.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4UserTrackingAction.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4RunManagerKernel.hh \
  /home/mirella/geant42/geant4-install/include/Geant4/G4VisManager.hh \
