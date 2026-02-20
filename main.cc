@@ -79,7 +79,7 @@ int main(int argc,char** argv)
     }
     
     else{
-        G4int numberOfEvent = 100000; 
+        G4int numberOfEvent = 10000; 
         runManager->BeamOn(numberOfEvent);
     }
     

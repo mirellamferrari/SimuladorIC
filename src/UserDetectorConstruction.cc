@@ -1,5 +1,3 @@
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo...... 
-//....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 #include "UserDetectorConstruction.hh"
 #include "SensitiveDetector.hh"
@@ -76,6 +74,9 @@ G4VPhysicalVolume* UserDetectorConstruction::Construct()
     G4Material* gas;
     
     if (*argument == '1') {
+
+        G4cout << ">>> ARGON ATIVO <<<" << G4endl;
+
         density = 1.780*mg/cm3; //Density for Argon alone
         
         gas = new G4Material(name="Gas", density, ncomponents=1, kStateGas, temperature=298*kelvin, pressure=1*atmosphere);
@@ -84,6 +85,9 @@ G4VPhysicalVolume* UserDetectorConstruction::Construct()
     }
     
     else if (*argument == '2') {
+
+        G4cout << ">>> XENON ATIVO <<<" << G4endl;
+
         density = 5.894*mg/cm3; //Density for Xenon alone
         
         gas = new G4Material(name="Gas", density, ncomponents=1, kStateGas, temperature=298*kelvin, pressure=1*atmosphere);
@@ -92,7 +96,10 @@ G4VPhysicalVolume* UserDetectorConstruction::Construct()
     }
     
     else if (*argument == '3') {
+
+        G4cout << ">>> CO2 ATIVO <<<" << G4endl;
         //CO2 alone
+        density = 1.960*mg/cm3;
         
         gas = new G4Material(name="Gas", density, ncomponents=1, kStateGas, temperature=298*kelvin, pressure=1*atmosphere);
         
@@ -147,16 +154,26 @@ G4VPhysicalVolume* UserDetectorConstruction::Construct()
     G4Box* scintillator =
         new G4Box("Scintillator",                   //its name
                   25*mm, 25*mm, 25*mm);                //its size
+
+
     
     // G4LogicalVolume* logicalScintillator =
     //     new G4LogicalVolume(scintillator,           //its solid
     //                         gas,                    //its material
     //                         "Scintillator");        //its name
-    G4Material* testMat =
-    // G4NistManager::Instance()->FindOrBuildMaterial("G4_NaI"); //
-    G4NistManager::Instance()->FindOrBuildMaterial("G4_SODIUM_IODIDE"); //ADICIONADO
-    G4LogicalVolume* logicalScintillator = //ADICIONADO
-    new G4LogicalVolume(scintillator, testMat, "Scintillator");
+    
+    G4LogicalVolume* logicalScintillator =
+        new G4LogicalVolume(scintillator,   // geometria
+                        gas,            // material gasoso escolhido
+                        "Scintillator");
+
+
+
+
+    //G4Material* testMat = 
+    //G4NistManager::Instance()->FindOrBuildMaterial("G4_SODIUM_IODIDE"); 
+    //G4LogicalVolume* logicalScintillator = 
+    //new G4LogicalVolume(scintillator, testMat, "Scintillator");
 
     
     new G4PVPlacement(0,                            //no rotation

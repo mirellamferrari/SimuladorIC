@@ -52,8 +52,7 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent) {
     //Gamma energy
     //double energy = (G4RandGauss::shoot(1000000000, 50))*eV;
     // double energy = std::max(0.0, G4RandGauss::shoot(1*GeV, 50*eV)); 
-    double energy = 100*MeV; //ADICIONADO, é melhor ficar 1 e 0.5 MeV para elétrons
-    //ou 59 KeV para fótons
+    double energy = 1*MeV; 
     
     
     gun->SetParticleEnergy(energy);

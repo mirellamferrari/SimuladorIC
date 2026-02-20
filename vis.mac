@@ -48,7 +48,7 @@
 #/vis/viewer/flush
 #
 # Run a 100 of events for vizualization
-/run/beamOn 100
+/run/beamOn 100 
 #
 # Export current view in a pdf file named "view01"
 /vis/ogl/export view01
